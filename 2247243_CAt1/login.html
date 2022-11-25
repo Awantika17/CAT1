@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+</head>
+<body>
+    <style>
+        div{
+            margin-top:140px;
+            margin-left:580px;
+            background-color:rgba(43, 89, 156, 0.955);
+            height: 700px;
+            width: 480px ;
+        }
+    </style>
+    <div align="center">
+        <h1><i>Student Personal Information</i></h1>
+        <form>
+            <label><b>First Name: </b></label>
+            <input type="text" placeholder="First name" id="fname" name="fname">
+            <br><br>
+
+            <label><b>Last Name: </b></label>
+            <input type="text" placeholder="Last name" id="lname" name="lname">
+            <br><br>
+            <label><b>Phone Number </b></label>
+            <input type="tel" placeholder="number" id="number" name="number">
+            <br><br>
+            <label>Address:<input type="text"  placeholder="Your address" id="address"  ></label>
+            <br><br>
+            <label>Father's Name:<input type="text" placeholder="Your father's Name" id="name" ></label>
+            <br><br>
+            <label>Mother's Name:<input type="text" placeholder="Your mother's Name" id="name" ></label>
+            <br><br>
+            <label for="email"><b>Enter your email:</b></label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label><b>Gender: </b></label><br>
+             <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="others">Others
+            <br><br>
+            <label for="username">Username:</label></b>
+            <input type="text" id="username" name="username">
+
+            <br><br>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password" minlength="8" required>
+            <br><br>
+
+            <br><br>
+            <h1><i>Student Academic Information</i></h1>
+            <label><b>Your Course: </b></label><br>
+            
+            <input type="radio" id="mca" name="mca" value="mca">MCA
+            
+            <input type="radio" id="msc" name="msc" value="msc">MSC
+            
+            <input type="radio" id="bca" name="bca" value="bca">BCA
+            <br><br>
+            <label><b>Your Admission Date:</b></label><br>
+            <small><b>Select Admission date</b></small>
+            <input type="date" id="check-in" name="check-in" required>
+            <br><br>
+            <a href="student.xml"><input type="submit" value="Submit"></a>
+            <br><br>
+        </form>
+    </div>
+    <br><br>
+    
+</body>
+</html>

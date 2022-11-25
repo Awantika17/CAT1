@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="studentdetails.xsd">
+
+<student>
+    <Id>101</Id>
+    <Stu_Name>Awantika Saha</Stu_Name>
+    <Stu_Course>Mca</Stu_Course>
+    <Stu_Sem>2</Stu_Sem>
+    <Stu_Sub1>80</Stu_Sub1>
+    <Stu_Sub2>80</Stu_Sub2>
+    <Stu_Sub3>80</Stu_Sub3>
+    <Stu_Total>240</Stu_Total>
+    <Stu_Avg>120</Stu_Avg>
+    
+  </student>
+  <student>
+    <Id>102</Id>
+    <Stu_Name>Apoorva Vasistha</Stu_Name>
+    <Stu_Course>Mca</Stu_Course>
+    <Stu_Sem>2</Stu_Sem>
+    <Stu_Sub1>30</Stu_Sub1>
+    <Stu_Sub2>40</Stu_Sub2>
+    <Stu_Sub3>50</Stu_Sub3>
+    <Stu_Total>120</Stu_Total>
+    <Stu_Avg>   60   </Stu_Avg>
+    
+  </student>
+  <student>
+    <Id>103</Id>
+    <Stu_Name>Ritika Saha</Stu_Name>
+    <Stu_Course>Mba</Stu_Course>
+    <Stu_Sem>1</Stu_Sem>
+    <Stu_Sub1>50</Stu_Sub1>
+    <Stu_Sub2>90</Stu_Sub2>
+    <Stu_Sub3>40</Stu_Sub3>
+    <Stu_Total>180</Stu_Total>
+    <Stu_Avg>   90   </Stu_Avg>
+    
+  </student>
+  <student>
+    <Id>104</Id>
+    <Stu_Name>Richa Sharma</Stu_Name>
+    <Stu_Course>Biology</Stu_Course>
+    <Stu_Sem>3</Stu_Sem>
+    <Stu_Sub1>60</Stu_Sub1>
+    <Stu_Sub2>70</Stu_Sub2>
+    <Stu_Sub3>70</Stu_Sub3>
+    <Stu_Total>200</Stu_Total>
+    <Stu_Avg>   100  </Stu_Avg>
+    
+  </student>
+  <student>
+    <Id>105</Id>
+    <Stu_Name>Aditi Ghosh</Stu_Name>
+    <Stu_Course>Msc</Stu_Course>
+    <Stu_Sem>5</Stu_Sem>
+    <Stu_Sub1>10</Stu_Sub1>
+    <Stu_Sub2>20</Stu_Sub2>
+    <Stu_Sub3>10</Stu_Sub3>
+    <Stu_Total>40</Stu_Total>
+    <Stu_Avg>    20  </Stu_Avg>
+    
+  </student>
+</college>
